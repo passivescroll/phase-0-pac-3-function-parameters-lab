@@ -7,7 +7,7 @@ function introductionWithLanguage(Name,Language) {
   return `Hi, my name is ${Name} and I am learning to program in ${Language}.`
 }
 
-function sayHelloTo(firstName) {
+function sayHelloTo(firstName = "user") { // = Operater to assign two values
   console.log(`Hello, ${firstName}!`);
 }
 
